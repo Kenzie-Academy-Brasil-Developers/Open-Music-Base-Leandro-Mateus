@@ -1,1 +1,122 @@
-/* Desenvolva sua estilização aqui ... */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    margin-bottom: 60px;
+    align-items: center;
+}
+
+.div_DarkMode {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-color: var(--color-grey-8);
+    padding: 6px;
+    border-radius: var(--radius-1);
+    cursor: pointer;
+    width: 33px;
+    height: 30px;
+}
+
+.div_Genres {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.div_InputRange {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.div_TextInputRange {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.input_Range {
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+}
+
+li {
+    width: 45%;
+    margin-bottom: 15px;
+}
+
+li img {
+    width: 100%;
+    border-top-left-radius: var(--radius-1);
+    border-top-right-radius: var(--radius-1);
+}
+
+.div_CardInfoContainer {
+    padding: 5%;
+    gap: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-grey-8);
+    border-bottom-left-radius: var(--radius-1);
+    border-bottom-right-radius: var(--radius-1);
+}
+
+.div_CardInfoInside1 {
+    display: flex;
+    gap: 16px;
+}
+
+.div_Price {
+    display: flex;
+    gap: 5px;
+    padding: 5px 0;
+}
+
+.div_CardInfoInside2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn_Buy {
+    background-color: var(--color-grey-7);
+    border-radius: var(--radius-1);
+    color: var(--color-grey-2);
+    padding: 8px;
+    border: none;
+    background-color: var(--color-grey-7);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hidden {
+    display: none;
+}
+

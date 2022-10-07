@@ -6,15 +6,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./styles/globalStyles.css" />
     <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/radioLabels.css">
+    <link rel="stylesheet" href="./styles/fonts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Open Music</title>
   </head>
   <body>
-    <main>
+    <nav>
+      <h1 class="title">open music</h1>
+     
+      <div class="div_DarkMode">
+        <i class="fa-solid fa-moon"></i>
 
+      </div>
+    </nav>
+    <main>
+        <h3>Gênero Musical</h3>
+        <div class="div_Genres">
+          <input class="hidden genderSelect" type="radio" id="Todos" name="genders" value="Todos">
+          <label class="" for="Todos">Todos</label>
+
+          <input class="hidden genderSelect" type="radio" id="Pop" name="genders" value="Pop">
+          <label class="" for="Pop">Pop</label>
+
+          <input class="hidden genderSelect" type="radio" id="MPB" name="genders" value="MPB">
+          <label class="" for="MPB">MPB</label>
+
+          <input class="hidden genderSelect" type="radio" id="Forró" name="genders" value="Forró">
+          <label class="" for="Forró">Forró</label>
+
+          <input class="hidden genderSelect" type="radio" id="Samba" name="genders" value="Samba">
+          <label class="" for="Samba">Samba</label>
+
+          <input class="hidden genderSelect" type="radio" id="Baião" name="genders" value="Baião">
+          <label class="" for="Baião">Baião</label>
+
+          <input class="hidden genderSelect" type="radio" id="Rap" name="genders" value="Rap">
+          <label class="" for="Rap">Rap</label>
+
+          <input class="hidden genderSelect" type="radio" id="Hip-Hop" name="genders" value="Hip-Hop">
+          <label class="" for="Hip-Hop">Hip-Hop</label> 
+        
+
+          <input class="hidden genderSelect" type="radio" id="Rock" name="genders" value="Rock">
+          <label class="" for="Rock">Rock</label>
+
+          <input class="hidden genderSelect" type="radio" id="Reggae" name="genders" value="Reggae">
+          <label class="" for="Reggae">Reggae</label>
+
+          <input class="hidden genderSelect" type="radio" id="Country" name="genders" value="Country">
+          <label class="" for="Country">Country</label>
+
+          <input class="hidden genderSelect" type="radio" id="Gospel" name="genders" value="Gospel">
+          <label class="" for="Gospel">Gospel</label>
+
+        </div>
+
+        <div class="div_InputRange">
+          <h4 class="title_Price">Definir preço</h4>
+          <div class="div_TextInputRange">
+            <p>Até R$</p>
+            <p class="currentInputRangeValue">0</p>
+          </div>
+        </div>
+
+        <input class="input_Range" min="0" max="240" 
+        value="0" step="5" oninput="updateValue(this.value)" type="range" name="" id="">
+
+        <h4 class="title_Albums">Albums Encontrados</h4>
+
+        <ul>
+
+        </ul>
     </main>
     
     <script src="./scripts/theme.js"></script>
     <script src="./scripts/productsData.js"></script>
     <script src="./scripts/index.js"></script>
+    <script src="https://kit.fontawesome.com/5531155818.js" crossorigin="anonymous"></script>
   </body>
 </html>

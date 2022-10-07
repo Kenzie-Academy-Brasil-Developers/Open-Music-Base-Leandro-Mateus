@@ -1,0 +1,84 @@
+label {
+    padding-inline: 0.5rem;
+    display: flex;
+    padding: 7px;
+    width: max-content;
+    font-size: var(--font-3);
+    cursor: pointer;
+    background-color: var(--color-grey-8);
+    color: var(--color-grey-1);
+    border-radius: var(--radius-1);
+}
+
+#Todos:checked + label {
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-8);
+    border-radius: var(--radius-1);
+    
+}
+#Pop:checked + label {
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-8);
+    border-radius: var(--radius-1);
+    
+}
+#MPB:checked + label {
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-8);
+    border-radius: var(--radius-1);
+    
+}
+#Forró:checked + label {
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-8);
+    border-radius: var(--radius-1);
+    
+}
+#Samba:checked + label {
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-8);
+    border-radius: var(--radius-1);
+    
+}
+#Baião:checked + label {
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-8);
+    border-radius: var(--radius-1);
+    
+}
+#Rap:checked + label {
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-8);
+    border-radius: var(--radius-1);
+    
+}
+#Hip-Hop:checked + label {
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-8);
+    border-radius: var(--radius-1);
+    
+}
+#Rock:checked + label {
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-8);
+    border-radius: var(--radius-1);
+    
+}
+#Reggae:checked + label {
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-8);
+    border-radius: var(--radius-1);
+    
+}
+#Country:checked + label {
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-8);
+    border-radius: var(--radius-1);
+    
+}
+#Gospel:checked + label {
+    background-color: var(--color-grey-1);
+    color: var(--color-grey-8);
+    border-radius: var(--radius-1);
+    
+}
