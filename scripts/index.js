@@ -7,13 +7,13 @@ function updateValue(currentValue) {
 }
 
 function filterAlbums() {
-  sessionStorage.setItem("genreToRender", "Todos");
+  localStorage.setItem("genreToRender", "Todos");
 
   genreSelect.forEach((elem) => {
     elem.addEventListener("click", () => {
       if (elem.checked) {
-        sessionStorage.setItem("genreToRender", elem.id);
-        let currentGenre = sessionStorage.getItem("genreToRender");
+        localStorage.setItem("genreToRender", elem.id);
+        let currentGenre = localStorage.getItem("genreToRender");
         let albumsByGenre = products.filter((elem) => elem.price <= parseInt(currentInputRangeValue.innerText) && elem.category === currentGenre);
         renderAlbums(albumsByGenre)
       }
@@ -21,7 +21,7 @@ function filterAlbums() {
   });
 
   inputRange.addEventListener("mouseover", () => {
-    let selectedGenre = sessionStorage.getItem("genreToRender");
+    let selectedGenre = localStorage.getItem("genreToRender");
     let albums    = products.filter((elem) => elem.price <= parseInt(currentInputRangeValue.innerText) && elem.category === selectedGenre);
     let allAlbums = products.filter((elem) => elem.price <= parseInt(currentInputRangeValue.innerText));
 
